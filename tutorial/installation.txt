@@ -1,0 +1,31 @@
+http://localhost:8001
+https://hub.docker.com/
+Host Machine Virtual Disk Path C:\Users\your_name\AppData\Local\Docker\wsl\data\
+
+
+For Build:
+           $ docker build -t hello-docker .
+
+For Details Image:
+                  $ docker images
+
+For Run Docker Code:
+                    $ docker run root-folder-name/repository-name
+          like:     $ docker run hello-docker
+          like:     $ docker run mahmudhosen/hello-docker
+
+
+For Docker Login:
+                $docker login
+
+
+For Docker Image/Repository Create:
+                     $docker tag IMAGE-ID       USER-NAME/ROOT-FILE-NAME
+            Like:    $docker tag a62bb2e136fa mahmudhosen/hello-docker
+
+
+
+For Image Push:
+              $docker push repository-name
+       ike:   $docker push mahmudhosen/hello-docker
+
